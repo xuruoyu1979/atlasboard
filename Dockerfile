@@ -4,10 +4,8 @@ MAINTAINER ruoyu.xu@windriver.com
 
 RUN	npm install -g atlasboard
 
-EXPOSE 8000
-
 VOLUME /opt/app
 
 WORKDIR /opt/app
 
-CMD ["atlasboard", "start", "8000"]
+CMD ["atlasboard", "start", "3333"]
